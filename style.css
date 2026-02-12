@@ -1,24 +1,42 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #ffffff;
+  background: #f5f5f5;
   color: #333;
+}
+
+nav {
+  background: #222;
+  padding: 12px;
   text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .hero {
   background: #2b2b2b;
   color: white;
   padding: 50px 20px;
+  text-align: center;
 }
 
-.hero h1 {
-  margin-bottom: 10px;
+.section {
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .btn-whatsapp {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 12px 25px;
   background: #25D366;
   color: white;
@@ -27,28 +45,27 @@ body {
   font-size: 16px;
 }
 
-.section {
-  padding: 40px 20px;
-}
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
-.grid a {
-  background: #f4f4f4;
-  padding: 20px;
-  text-decoration: none;
-  color: black;
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.card img {
+  width: 100%;
   border-radius: 5px;
-  font-weight: bold;
 }
 
 footer {
-  background: #eee;
+  background: #ddd;
+  text-align: center;
   padding: 15px;
   font-size: 14px;
 }
