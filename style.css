@@ -21,7 +21,8 @@ nav {
 }
 
 nav img {
-  height: 48px;
+  height: 70px;       /* Bigger, premium look */
+  width: auto;
 }
 
 nav a {
