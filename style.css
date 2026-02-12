@@ -14,14 +14,14 @@ body {
 nav {
   background: #ffffff;
   border-bottom: 1px solid #e5e0d8;
-  padding: 14px 40px;
+  padding: 25px 50px;        /* more vertical space */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 nav img {
-  height: 100px;       /* Bigger, premium look */
+  height: 95px;       /* Bigger, premium look */
   width: auto;
 }
 
